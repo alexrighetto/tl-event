@@ -1,0 +1,586 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Registration Page\n"
+"POT-Creation-Date: 2014-03-18 08:45+0100\n"
+"PO-Revision-Date: 2014-03-21 16:54+0100\n"
+"Last-Translator: Alex <alexrighetto@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../footer.php:9
+msgid "Download Regulation"
+msgstr "Scarica il regolamento"
+
+#: ../footer.php:12
+msgid "Sorry, but the file is not yet available. Please, try again shortly"
+msgstr ""
+"Ci scusiamo ma il file non è ancora disponibile. Vi preghiamo di riprovare "
+"più avanti."
+
+#: ../footer.php:15 ../footer.php:37
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../footer.php:30
+msgid "Help panel"
+msgstr "Pannello di Aiuto"
+
+#: ../header.php:12 ../header_old.php:12
+msgid "MAY 11th 2014, HDD Rodeo Day in Verona IT, by Vermeer"
+msgstr "11 Maggio 2014, HDD Rodeo Day a Verona IT, Vermeer"
+
+#: ../header.php:36 ../header_old.php:34
+msgid "Toggle navigation"
+msgstr "Cambia navigazione"
+
+#: ../header.php:48 ../header_old.php:46
+msgid "Registration"
+msgstr "Registrazione"
+
+#: ../header.php:49 ../header_old.php:47
+msgid "Informations"
+msgstr "Informazioni"
+
+#: ../header.php:50 ../header_old.php:48 ../registration.php:45
+msgid "Prizes"
+msgstr "Premi"
+
+#: ../header.php:51 ../header_old.php:49 ../registration.php:93
+msgid "Where & When"
+msgstr "Quando e Dove"
+
+#: ../header.php:52 ../header_old.php:50
+msgid "Program"
+msgstr "Programma"
+
+#: ../header.php:53 ../header_old.php:51 ../registration.php:317
+msgid "Partners"
+msgstr "Sponsor"
+
+#: ../header.php:54 ../header_old.php:52
+msgid "blog"
+msgstr ""
+
+#: ../header.php:62 ../header_old.php:74
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../header.php:65
+msgid "Help"
+msgstr "Aiuto"
+
+#: ../header.php:73
+msgid "log in"
+msgstr "Accedi"
+
+#: ../header.php:79
+msgid "Admin"
+msgstr "Amministrazione"
+
+#: ../header.php:80
+msgid "Profile"
+msgstr "Profilo"
+
+#: ../header.php:82 ../header_old.php:87
+msgid "Log out"
+msgstr "Esci"
+
+#: ../header_old.php:59
+msgid "Username"
+msgstr "Nome utente"
+
+#: ../header_old.php:62
+msgid "Password"
+msgstr ""
+
+#: ../header_old.php:65
+msgid "Login"
+msgstr "Accedi"
+
+#: ../header_old.php:85
+msgid "You&rsquo;re logged in as "
+msgstr "Sei entrato come"
+
+#: ../inc/registration-functions.php:8 ../inc/registration-functions.php:260
+#: ../inc/registration-functions.php:325 ../sidebar-form.php:14
+msgid "Company name"
+msgstr "Nome azienda"
+
+#: ../inc/registration-functions.php:13 ../inc/registration-functions.php:265
+#: ../inc/registration-functions.php:330 ../sidebar-form.php:23
+msgid "Address"
+msgstr "Indirizzo"
+
+#: ../inc/registration-functions.php:19 ../inc/registration-functions.php:270
+#: ../inc/registration-functions.php:335 ../sidebar-form.php:29
+msgid "Zip code"
+msgstr "C.A.P."
+
+#: ../inc/registration-functions.php:25 ../inc/registration-functions.php:275
+#: ../inc/registration-functions.php:340 ../sidebar-form.php:38
+msgid "State / Region"
+msgstr "Città"
+
+#: ../inc/registration-functions.php:31 ../inc/registration-functions.php:279
+#: ../inc/registration-functions.php:344 ../sidebar-form.php:44
+msgid "Country"
+msgstr "Nazione"
+
+#: ../inc/registration-functions.php:37 ../inc/registration-functions.php:283
+#: ../inc/registration-functions.php:348 ../sidebar-form.php:66
+msgid "Team Name Choosen"
+msgstr "Nome del Team scelto"
+
+#: ../inc/registration-functions.php:43 ../inc/registration-functions.php:287
+#: ../inc/registration-functions.php:352 ../sidebar-form.php:74
+msgid "Operator name"
+msgstr "Nome Operatore"
+
+#: ../inc/registration-functions.php:50 ../inc/registration-functions.php:291
+#: ../inc/registration-functions.php:356 ../sidebar-form.php:80
+msgid "Operator E-Mail"
+msgstr "E-mail Operatore"
+
+#: ../inc/registration-functions.php:56 ../inc/registration-functions.php:295
+#: ../inc/registration-functions.php:360
+msgid "Locating operator Name"
+msgstr "Nome operatore dello strumento"
+
+#: ../inc/registration-functions.php:62 ../inc/registration-functions.php:299
+#: ../inc/registration-functions.php:364 ../sidebar-form.php:94
+msgid "Locating operator E-Mail"
+msgstr "E-mail operatore dello strumento"
+
+#: ../inc/registration-functions.php:68 ../inc/registration-functions.php:303
+#: ../inc/registration-functions.php:368 ../sidebar-form.php:102
+msgid "Reference Dealer"
+msgstr "Dealer di riferimento"
+
+#: ../inc/registration-functions.php:74 ../inc/registration-functions.php:308
+#: ../inc/registration-functions.php:373
+msgid "HDD Models"
+msgstr "Modelli HDD"
+
+#: ../inc/registration-functions.php:75 ../sidebar-form.php:110
+msgid "HDD models and locating system you are experienced with"
+msgstr ""
+"Scrivete con quale Navigator Vermeer e sistemi di localizzazione avete "
+"esperienza"
+
+#: ../inc/registration-functions.php:255 ../inc/registration-functions.php:320
+msgid "HDD Rodeo Registration Form:"
+msgstr "Modulo di registrazione HDD Rodeo"
+
+#: ../registration.php:20
+msgid "Private event organized by Vermeer <sup>®</sup>"
+msgstr "Evento privato organizzato da Vermeer <sup>®</sup>"
+
+#: ../registration.php:25
+msgid "MAY 11th <span class=\"main-color\">2014</span>"
+msgstr "11 MAGGIO <span class=\"main-color\">2014</span>"
+
+#: ../registration.php:26
+msgid ""
+"Vermeer EMEA will organize a spectacular and demanding challenge, hosted by "
+"Vermeer<sup>®</sup> Italy, to determine the best <strong>HDD "
+"Navigator<sup>TM</sup></strong> drillers from all over Europe, Middle East "
+"and Africa"
+msgstr ""
+"Vermeer EMEA organizza una sfida spettacolare e impegnativa, ospitata da "
+"Vermeer <sup>®</sup> Italia,  con lo scopo di determinare i migliori "
+"operatori <strong> HDD Navigator <sup> TM </sup> </strong>  di tutta Europa, "
+"Medio Oriente e Africa"
+
+#: ../registration.php:34
+msgid ""
+"Show your abilities and compete against international teams! <br/>You can "
+"win a trip to the USA for 2 people!"
+msgstr ""
+"Mostra le tue abilità e competi con team internazionali! <br/> Puoi vincere "
+"un viaggio per 2 persone negli USA!"
+
+#: ../registration.php:36
+msgid ""
+"The Vermeer family will come from around the world to gather in the "
+"wonderful city of <a href=\"http://en.wikipedia.org/wiki/Verona\" title="
+"\"Verona\" target=\"_blank\">Verona</a> to enjoy a very special week end. "
+"Customers, dealers, partners and Vermeer<sup>&reg;</sup> top executives, "
+"will unite to celebrate and have fun!!!"
+msgstr ""
+"La famiglia Vermeer<sup>&reg;</sup> proveniente da tutto il mondo  si "
+"riunirà nella splendida città di <a href=\"http://it.wikipedia.org/wiki/"
+"Verona\" title=\"Verona\" target=\"_blank\">Verona</a> per godersi un fine "
+"settimana speciale. Clienti, dealers, partners e i top executives della "
+"Vermeer<sup>&reg;</sup> si uniranno per celebrare e divertirsi!!!"
+
+#: ../registration.php:37
+msgid ""
+"An <strong>HDD Rodeo</strong> is a directional drilling competition with a "
+"spirit of play and fun, but this doesn’t mean that the competition is not "
+"real!"
+msgstr ""
+"L'<strong>HDD Rodeo</strong>day è una competizione di perforazione "
+"orizzontale teleguidata, all'insegna del gioco e del divertimento. Questo "
+"non significa però che non sia gara vera!"
+
+#: ../registration.php:38
+msgid ""
+"The best drillers from throughout Europe will display their skills, "
+"teamwork, and professionalism while competing for fantastic prizes.  In "
+"conjunction with the HDD Rodeo there will be an incredible event that could "
+"only be experienced in Italy.  Fun, old friends and new friends, colleagues, "
+"mini-car races, mechanical bulls, helicopters, rock concerts, Italian "
+"country food, beer, Italian wine and much more!"
+msgstr ""
+"I migliori operatori di tutta Europa metteranno in mostra le loro abilità, "
+"il lavoro di squadra e la loro professionalità, gareggiando per fantastici "
+"premi. L'HDD Rodeo è un incredibile evento a cui puoi assistere solo in "
+"Italia. Divertimento, vecchi amici, nuovi amici, colleghi, gare di minicar, "
+"tori meccanici, concerti rock, cibo e vino locale italiano, birra e molto "
+"altro ancora!"
+
+#: ../registration.php:39
+msgid ""
+"The <strong><span itemprop=\"name\">HDD Rodeo</span></strong> is a proved "
+"format that has been developed by <strong>Benjamin media Inc.</strong> of "
+"Brecksville, OH 44141.</br />With his permission we are going to experience "
+"it in the Italian way!!!Thank you Rob Krzys! "
+msgstr ""
+"l'<strong><span itemprop=\"name\">HDD Rodeo</span></strong>  è un format "
+"collaudato e sviluppato dalla <strong>Benjamin media Inc.</strong> di "
+"Brecksville, OH 44141. </br />In accordo con loro, stiamo preparando la "
+"versione italiana!!! Grazie Rob Krzys!"
+
+#: ../registration.php:47
+msgid "New York City"
+msgstr "Città di New York"
+
+#: ../registration.php:49
+msgid "First prize: a trip for 2 people in the USA! "
+msgstr "Primo premio: un viaggio per 2 persone negli USA"
+
+#: ../registration.php:50
+msgid ""
+"A day visiting the Vermeer<sup>&reg;</sup> Global Headquarters and 3 days in "
+"a American metropolis. "
+msgstr ""
+"Un giorno alla visita alla casa madre Vermeer <sup>&reg;</sup> e 3 giorni in "
+"una metropoli Americana"
+
+#: ../registration.php:53
+msgid "London"
+msgstr "Londra"
+
+#: ../registration.php:55
+msgid "Second prize: Trip for 2 people in a European city"
+msgstr "Secondo premio: un viaggio per 2 persone in una città Europea"
+
+#: ../registration.php:56
+msgid ""
+"A day visiting the Vermeer<sup>&reg;</sup> EMEA Headquarters in the "
+"Netherlands and a day visiting a European city."
+msgstr ""
+"Un giorno di visita ai quartieri generali EMEA in Olanda e un giorno di "
+"visita in una città europea."
+
+#: ../registration.php:59
+msgid "Racing Car"
+msgstr "Corsa di Auto"
+
+#: ../registration.php:61
+msgid ""
+"Third Prize: remote control Vermeer<sup>&reg;</sup> racing car + 200 € "
+"voucher for Vermeer<sup>&reg;</sup> merchandising"
+msgstr ""
+"Il terzo premio: Macchina da corsa radiocomandata Vermeer<sup>&reg;</sup> "
+"più 200€ di buoni acquisto su prodotti Vermeer"
+
+#: ../registration.php:68
+msgid "Contest information"
+msgstr "Informazioni competizione"
+
+#: ../registration.php:70
+msgid ""
+"Every HDD Navigator<sup>TM</sup> client from Europe, Middle East and Africa "
+"can participate. You can submit your registration which will be examined and "
+"approved according to the limitations of time and with the geographical "
+"representations of all areas involved. We will do our best to have you all "
+"here!"
+msgstr ""
+"Ogni cliente HDD Navigator<sup>TM</sup> dall'Europa, Medio Oriente e Africa "
+"può partecipare e richiedere l'adesione all'evento che sarà esaminata e "
+"approvata tenendo conto delle limitazioni di tempo e delle rappresentanze "
+"geografiche di tutte le aree coinvolte. Faremo del nostro meglio per avervi "
+"tutti qui!"
+
+#: ../registration.php:71
+msgid ""
+"Every team will consist of 2 people: an operator and a locator. To reserve "
+"your spot in this international competition, a deposit of 250 € will be "
+"required.  At the start of the event, 200 € will be returned to each team in "
+"addition to a very nice contest package."
+msgstr ""
+"Ogni team è composto da 2 persone: un operatore e un operatore allo "
+"strumento di localizzazione sonda. Per assicurare la partecipazione a questa "
+"competizione internazionale, viene richiesto ad ogni team un deposito "
+"cauzionale di 250€. All'inizio dell'evento 200€ verranno restituiti e verrà "
+"consegnato un pacco gara molto sostanzioso!"
+
+#: ../registration.php:72
+msgid "Every team will receive a super cool contest package!"
+msgstr "Ogni team riceverà un pacchetto gara molto sostanzioso!"
+
+#: ../registration.php:73
+msgid "Download full regulation"
+msgstr "Scarica il regolamento"
+
+#: ../registration.php:78
+msgid "Contest package"
+msgstr "Pacchetto gara"
+
+#: ../registration.php:80
+msgid "Here is the contest package that you will receive: "
+msgstr "Ecco il pacchetto gara che riceverai:"
+
+#: ../registration.php:82
+msgid "Free Samoter Show entrance."
+msgstr "Ingresso omaggio alla fiera Samoter"
+
+#: ../registration.php:83
+msgid ""
+"Total hospitality at Vermeer<sup>&reg;</sup> Italy Stand with catering and "
+"Bar service."
+msgstr ""
+"Completa accoglienza allo stand Vermeer<sup>&reg;</sup> Italy con servizio "
+"bar e catering."
+
+#: ../registration.php:84
+msgid "Dinner and party on the evening  of Saturday, May 10."
+msgstr "Cena e festa alla sera,  Sabato 10 Maggio"
+
+#: ../registration.php:85
+msgid "BBQ Lunch on Sunday, May 11"
+msgstr "Grigliata per pranzo, domenica 11 Maggio"
+
+#: ../registration.php:86
+msgid ""
+"Vermeer<sup>&reg;</sup> merchandise package (personalized hard hat and other "
+"items! )"
+msgstr ""
+"Pacchetto di gadget Vermeer <sup>&reg;</sup> (elmetto personalizzato e altri "
+"oggetti)"
+
+#: ../registration.php:96
+msgid "Get Directions"
+msgstr "Ottieni indicazioni"
+
+#: ../registration.php:100
+msgid "Ph:"
+msgstr "Tel:"
+
+#: ../registration.php:102
+msgid "Sunday"
+msgstr "Domenica"
+
+#: ../registration.php:102
+msgid "May 11, 2014"
+msgstr "11 Maggio 2014"
+
+#: ../registration.php:102
+msgid "from 7:30 AM to 5:30 PM (Local time)"
+msgstr "Dalle 7:30 alle 17.30 (Ora locale)"
+
+#: ../registration.php:107
+msgid "HDD Rodeo Day Program"
+msgstr "Programma HDD Rodeo Day"
+
+#: ../registration.php:113
+msgid "Rodeo contest"
+msgstr "Competizione Rodeo"
+
+#: ../registration.php:114 ../registration.php:170 ../registration.php:178
+#: ../registration.php:186 ../registration.php:194 ../registration.php:202
+#: ../registration.php:210 ../registration.php:218 ../registration.php:226
+msgid "Car race"
+msgstr "Gara automobili radiocomandate"
+
+#: ../registration.php:115
+msgid "Bull fight"
+msgstr "Toro meccanico"
+
+#: ../registration.php:116 ../registration.php:196 ../registration.php:204
+#: ../registration.php:212 ../registration.php:220
+msgid "Lunch"
+msgstr "Pranzo"
+
+#: ../registration.php:117
+msgid "Various"
+msgstr "Varie"
+
+#: ../registration.php:121
+msgid "Reception open"
+msgstr "Apertura segreteria"
+
+#: ../registration.php:129
+msgid "Round stage 1"
+msgstr "Primo round"
+
+#: ../registration.php:137
+msgid "Round stage 2"
+msgstr "Secondo round"
+
+#: ../registration.php:145
+msgid "Round stage 3"
+msgstr "Terzo round"
+
+#: ../registration.php:153
+msgid "Round stage 4"
+msgstr "Quarto round"
+
+#: ../registration.php:157 ../registration.php:165 ../registration.php:173
+#: ../registration.php:197 ../registration.php:229 ../registration.php:237
+#: ../registration.php:261 ../registration.php:269 ../registration.php:277
+msgid "Music"
+msgstr "Musica"
+
+#: ../registration.php:161
+msgid "Round stage 5"
+msgstr "Quinto round"
+
+#: ../registration.php:163 ../registration.php:171 ../registration.php:187
+#: ../registration.php:195
+msgid "Bull Contest"
+msgstr "Sfida al toro meccanico"
+
+#: ../registration.php:164
+msgid "Snack"
+msgstr "Pausa"
+
+#: ../registration.php:169
+msgid "Round stage 6"
+msgstr "Sesto round"
+
+#: ../registration.php:177
+msgid "Round stage 7"
+msgstr "Settimo round"
+
+#: ../registration.php:181 ../registration.php:189 ../registration.php:205
+#: ../registration.php:213 ../registration.php:221
+msgid " Live music"
+msgstr "Musica dal vivo"
+
+#: ../registration.php:185
+msgid "Round stage 8"
+msgstr "Ottavo round"
+
+#: ../registration.php:193
+msgid "Round stage 9"
+msgstr "Nono round"
+
+#: ../registration.php:201
+msgid "Round stage 10"
+msgstr "Decimo round"
+
+#: ../registration.php:203 ../registration.php:211 ../registration.php:219
+msgid "Free use"
+msgstr "Uso libero"
+
+#: ../registration.php:209
+msgid "Round stage 11"
+msgstr "Undicesimo round"
+
+#: ../registration.php:217
+msgid "Round stage 12"
+msgstr "Dodicesimo round"
+
+#: ../registration.php:227
+msgid "Final contest"
+msgstr "Sfida Finale"
+
+#: ../registration.php:233
+msgid "Semifinal"
+msgstr "Semifinale"
+
+#: ../registration.php:234
+msgid "Car final"
+msgstr "Finale Automobili radiocomandate"
+
+#: ../registration.php:241
+msgid "Final"
+msgstr "Finale"
+
+#: ../registration.php:249
+msgid "Prizegiving"
+msgstr "Premiazioni"
+
+#: ../registration.php:302
+msgid "Add to calendar"
+msgstr "Aggiungi al mio calendario"
+
+#: ../registration.php:303
+msgid "Toggle Dropdown"
+msgstr "Cambia navigazione"
+
+#: ../registration.php:342
+msgid "Event organized by "
+msgstr "Evento organizzato da "
+
+#: ../registration.php:348
+msgid "Ph."
+msgstr "Tel."
+
+#: ../registration.php:354
+msgid "Select your preferred language"
+msgstr "Imposta la lingua preferita"
+
+#: ../sidebar-form.php:3
+msgid "<span style=\"color:#000\">TEAM</span> Sign-up"
+msgstr "Iscrizione <span style=\"color:#000\">TEAM</span>"
+
+#: ../sidebar-form.php:10
+msgid "Note: Every field is requred."
+msgstr "Nota: ogni campo è obbligatorio"
+
+#: ../sidebar-form.php:52
+msgid "Contact Name"
+msgstr "il tuo nome"
+
+#: ../sidebar-form.php:58
+msgid "Contact Email"
+msgstr "la tua email"
+
+#: ../sidebar-form.php:88
+msgid "Locating operator name"
+msgstr "Nome operatore allo strumento di localizzazione sonda"
+
+#: ../sidebar-form.php:121
+msgid "I agree with"
+msgstr "Accetto il"
+
+#: ../sidebar-form.php:121
+msgid "Privacy policy"
+msgstr "trattamento dei dati"
+
+#: ../sidebar-form.php:123
+msgid ""
+"Full registration will be approved by the organizers that will communicate "
+"the acceptance by e-mail."
+msgstr ""
+"La completa registrazione verrà approvata dagli organizzatori che verrà "
+"inviata via email"
+
+#: ../sidebar-form.php:127
+msgid "Request Signup"
+msgstr "Richiedi registrazione"
+
+#~ msgid "Sorry."
+#~ msgstr "Ci scusiamo"

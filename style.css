@@ -1,0 +1,74 @@
+/*
+Theme Name: Tl-evento
+Theme URI: http://www.vermeeritalia.com/
+Author: Alex Righetto
+*/
+
+html,body{background-color:#fff;color:#333;}
+html,body,.wrapper,#column-left,#column-right,#column-center{margin:0;padding:0;}
+h1,h2,h3,h4,h5{font-family:Abel, sans-serif;}
+.btn,.alert{border-radius:0;background-image:none;box-shadow:none;}
+.form-control{border-radius:0;}
+.navbar-inverse{background-image:none;background-color:#2B2F34;}
+
+#registrazione{background:#818d9b}
+#programma{background:#b5b1ac; color: #333}
+#sponsor, #modulo{background:#4a94c6}
+
+
+#modulo{padding:20px; margin-bottom:20px}
+#modulo label{color:#fff}
+#invio_modulo{width:100%; background:#28ea76; color:#1c4c30; height:50px}
+
+.jumbotron{border-radius:none; background:transparent;  -webkit-text-shadow: 0px 0px 4px 0px #333; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+         text-shadow: 0px 0px 4px 0px #333; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */}		 
+.jumbotron	 h1, .jumbotron	 h2, .jumbotron	 h3, .jumbotron	 h4{ /*background-color: rgba(255, 115, 0, 0.2); */  text-shadow: 2px 2px #333;}
+
+.container .jumbotron {
+    padding-left: 0;
+}
+
+.tabella-programma{background:#817160; color:#3333}
+
+.evidenziatore{background:#f58220; display:inline-block; color:#fff; padding:2px 5px}
+.contrasto{color:#f58220}
+
+
+#samoter, #vermeer{margin:0; padding:0}
+#samoter a{    background: url("images/samoter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 102px;
+    width: 262px;}
+#vermeer a {
+    background: url("images/vermeer.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 55px;
+    margin-top: 20px;
+    width: 182px;
+}
+
+#registrazione{
+	background:url(images/bg-1.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	
+	
+}
+
+#descrizione, #programma, #sponsor{padding: 50px 0}
+
+#programma{
+	background:url(images/bg-2.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	
+	
+}
+
+#sponsor{
+	background:url(images/bg-3.jpg) 50% 0 repeat fixed;
+	color: white;
+	
+	
+}
+
+#form-sidebar{margin:0; padding:0}
+#form-sidebar li{list-style-type:none}
