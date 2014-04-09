@@ -11,9 +11,9 @@ h1,h2,h3,h4,h5{font-family:Abel, sans-serif;}
 .form-control{border-radius:0;}
 .navbar-inverse{background-image:none;background-color:#2B2F34;}
 
-#registrazione{background:#818d9b}
-#programma{background:#b5b1ac; color: #333}
-#sponsor, #modulo{background:#4a94c6}
+#registrazione{background-color:#818d9b}
+#programma{background-color:#b5b1ac; color: #333}
+#sponsor, #modulo{background-color:#4a94c6}
 
 
 #modulo{padding:20px; margin-bottom:20px}
@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5{font-family:Abel, sans-serif;}
 }
 
 #registrazione{
-	background:url(images/bg-1.jpg) 50% 0 no-repeat fixed;
+	background: #818d9b url(images/bg-1.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	
 	
@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5{font-family:Abel, sans-serif;}
 #descrizione, #programma, #sponsor{padding: 50px 0}
 
 #programma{
-	background:url(images/bg-2.jpg) 50% 0 no-repeat fixed;
+	background:url(images/bg-2.jpg) 50% 0 repeat fixed;
 	color: white;
 	
 	

@@ -35,7 +35,7 @@ function axl_themesupport() {
 		$markup = array( 'search-form', 'comment-form', 'comment-list', );
 		add_theme_support( 'html5', $markup );	
 	
-			$domain = 'tl_event';
+			$domain = 'landing_page';
  
 			load_theme_textdomain( $domain, trailingslashit( WP_LANG_DIR ) . $domain );
 			load_theme_textdomain( $domain, get_stylesheet_directory() . '/lang' );
@@ -50,6 +50,12 @@ function axl_themesupport() {
 endif;
 add_action( 'after_setup_theme', 'axl_themesupport' );
 
+//http://codex.wordpress.org/Plugin_API/Action_Reference/send_headers
+add_action( 'send_headers', 'add_header_xua' );
+
+function add_header_xua() {
+	header( 'X-UA-Compatible: IE=edge,chrome=1' );
+}
 
 // Register Sidebar
 function contact_sidebar() {
@@ -57,7 +63,13 @@ function contact_sidebar() {
 	$args = array(
 		'id'            => 'form',
 		'name'          => __( 'Form', 'tl_event' ),
-	);
+		'description'   => '',
+        'class'         => 'form',
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</li>',
+		'before_title'  => '<h2 class="widgettitle">',
+		'after_title'   => '</h2>' 
+		);
 	register_sidebar( $args );
 
 }
@@ -66,6 +78,65 @@ function contact_sidebar() {
 add_action( 'widgets_init', 'contact_sidebar' );
 
 
+
+// Register Sidebar
+function header_box() {
+
+	$args = array(
+		'id'            => 'headerbox',
+		'name'          => __( 'Header Box', 'tl_event' ),
+		'description'   => __( 'Space in header', 'tl_event' ),
+		'class'         => 'headerbox',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<span class="widgettitle">',
+		'after_title'   => '</span>'
+	);
+	register_sidebar( $args );
+
+}
+
+// Hook into the 'widgets_init' action
+add_action( 'widgets_init', 'header_box' );
+
+
+// Register Sidebar
+function custom_sidebar() {
+
+	$args = array(
+		'id'            => 'side',
+		'name'          => __( 'side', 'text_domain' ),
+		'class'         => 'sidebar',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<span class="widgettitle">',
+		'after_title'   => '</span>'
+	);
+	register_sidebar( $args );
+
+}
+
+// Hook into the 'widgets_init' action
+add_action( 'widgets_init', 'custom_sidebar' );
+
+// Register Sidebar
+function programma() {
+
+	$args = array(
+		'id'            => 'program',
+		'name'          => __( 'program', 'text_domain' ),
+		'class'         => 'program',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<span class="widgettitle">',
+		'after_title'   => '</span>'
+	);
+	register_sidebar( $args );
+
+}
+
+// Hook into the 'widgets_init' action
+add_action( 'widgets_init', 'programma' );
 
 
 function axl_rodeoday_load_js()
@@ -155,7 +226,7 @@ function axl_base_nobarra_setup() {
 
 endif;
 
-add_action( 'after_setup_theme', 'axl_base_nobarra_setup', 1 );
+//add_action( 'after_setup_theme', 'axl_base_nobarra_setup', 1 );
 
 
 

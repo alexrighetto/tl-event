@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Registration Page\n"
-"POT-Creation-Date: 2014-04-04 15:26+0100\n"
-"PO-Revision-Date: 2014-04-04 15:27+0100\n"
+"POT-Creation-Date: 2014-04-08 16:38+0100\n"
+"PO-Revision-Date: 2014-04-08 16:41+0100\n"
 "Last-Translator: Alex <alexrighetto@gmail.com>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -22,37 +22,32 @@ msgid "Toggle navigation"
 msgstr "Cambia navigazione"
 
 #: ../index.php:52
-#, fuzzy
 msgid "Registration"
-msgstr "Registrazione"
+msgstr "s'abonner"
 
 #: ../index.php:53
-#, fuzzy
 msgid "Informations"
-msgstr "Informazioni"
+msgstr "informations"
 
 #: ../index.php:54 ../index.php:143
-#, fuzzy
 msgid "Program"
-msgstr "Programma"
+msgstr "programme"
 
 #: ../index.php:55
-#, fuzzy
 msgid "Partners"
-msgstr "Sponsor"
+msgstr "Partenaires"
 
 #: ../index.php:56
 msgid "Save the date"
-msgstr ""
+msgstr "Enregistrer dans l’Agenda"
 
 #: ../index.php:118
 msgid "Sign up here and secure your attendance"
-msgstr ""
+msgstr "S'abonner"
 
 #: ../index.php:169
-#, fuzzy
 msgid "Event sponsored by:"
-msgstr "Evento privato organizzato da"
+msgstr "Événement promu par:"
 
 #~ msgid "Company name"
 #~ msgstr "Nome azienda"
